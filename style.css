@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-color:hsl(275, 100%, 97%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+.card{
+    display: flex;
+    width: 730px;
+    height: 515px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 2rem;
+}
+.results{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+.result-title{
+    color: hsl(0, 0%, 100%)
+}
+.result-rank  {
+    color: hsl(0, 0%, 100%);
+    
+    font-size: 28px;
+}
+p{
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 50%;
+    font-weight: 400;
+}
+.circle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+.circle h3{
+    font-size: 80px;
+    font-weight: 800;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+.summary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap:16px;
+}
+.summary-title{
+    font-size: 32px;
+}
+.summary-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 3rem
+}
+.summary-item1{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height:55px;
+    background-color: hsl(0, 100%, 67%, 0.07);
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+.cont{
+    width: 100%;
+    height:55px;
+    border-radius: 10px;
+    font-weight: 500;
+    border: 0px;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+}
+.cont:hover{
+    background-image:linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%)) ;
+    cursor: pointer;
+}
